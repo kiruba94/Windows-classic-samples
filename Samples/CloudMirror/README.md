@@ -31,7 +31,7 @@ The following functionality is implemented:
 
 **Note**   The Windows-classic-samples repo contains a variety of code samples that exercise the various programming models, platforms, features, and components available in Windows and/or Windows Server. This repo provides a Visual Studio solution (SLN) file for each sample, along with the source files, assets, resources, and metadata needed to compile and run the sample. For more info about the programming models, platforms, languages, and APIs demonstrated in these samples, check out the documentation on the [Windows Dev Center](https://dev.windows.com). This sample is provided as-is in order to indicate or demonstrate the functionality of the programming models and feature APIs for Windows and/or Windows Server.
 
-This sample was created for Windows 10 Version 1809 using Visual Studio and the Windows SDK 10.0.22598.0, but in many cases it will run unaltered using later versions. Please provide feedback on this sample!
+This sample was created for Windows 10 Version 1809 using Visual Studio and the Windows SDK 10.0.22598.0. It is compatible with Visual Studio 2019, 2022, and 2026, and supports both x86 and x64 configurations. Please provide feedback on this sample!
 
 To get a copy of Windows, go to [Downloads and tools](http://go.microsoft.com/fwlink/p/?linkid=301696).
 
@@ -59,11 +59,11 @@ Windows 10 Version 1809
 
 ## Build the sample
 
-Currently the sample is configured for an x86 configuration. Change the solution platform to x86.
+The sample supports both x86 and x64 configurations. Select your desired platform (x86 or x64) in the solution platform dropdown.
 
-To build this sample, open the solution (*.sln*) file titled *CloudMirror.sln* from Visual Studio Professional 2017, Select **CloudMirrorPackage** as the startup project. go to **Build** \> **Build Solution** from the top menu after the sample has loaded.
+To build this sample, open the solution (*.sln*) file titled *CloudMirror.sln* from Visual Studio 2019 or later (including Visual Studio 2022 and 2026), Select **CloudMirrorPackage** as the startup project. go to **Build** \> **Build Solution** from the top menu after the sample has loaded.
 
-**Warning**  This sample requires the Windows SDK 10.0.17763.0.
+**Warning**  This sample requires the Windows SDK 10.0.22598.0 or higher.
 
 ## Run the sample
 
